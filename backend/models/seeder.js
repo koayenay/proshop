@@ -25,7 +25,7 @@ const importData = async () => {
     const sampleProducts = products.map((product) => {
       return {
         ...product,
-        user: adminUser, 4.48
+        user: adminUser,
       }
     })
   } catch (error) {}
